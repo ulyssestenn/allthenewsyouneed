@@ -114,7 +114,7 @@ Others have built their own implementations of the concept:
 
 - **[ann](https://github.com/wbrown-dev/ann)** by [William C. Brown](https://github.com/wbrown-dev) — a Python implementation that fetches the feeds, uses Claude to apply the selection standard, and serves the digest through a Streamlit dashboard.
 
-Built something? Open an issue or PR to add it here.
+Built something? Open an issue to let me know and I'll add it here.
 
 ## License
 
