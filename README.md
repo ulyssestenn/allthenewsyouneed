@@ -96,9 +96,20 @@ Each daily file uses this structure:
 Access limitations, if any, are disclosed here.
 ```
 
-## Access Limitations
+## Sources & Access
 
-Some domains, like WSJ and NYT are paywalled or blocked. They won't include direct links, but you can search for their headlines.
+The article *pages* for some outlets are paywalled, but their **RSS feeds are not** — the feeds hand out headlines and canonical links for free. So the routine should read the feeds, not the article pages. The canonical feeds are:
+
+- **WSJ** — `https://feeds.content.dowjones.io/public/rss/RSSWorldNews` (also `RSSUSnews`, `RSSMarketsMain`, `RSSWSJD`, `RSSOpinion`)
+- **NYT** — `https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml` (also `World.xml`, `US.xml`, `Business.xml`)
+- **NBC** — `https://feeds.nbcnews.com/nbcnews/public/news` (also `/world`, `/politics`)
+- **AP** — AP publishes no public feed, so use a Google News site-scoped query: `https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en-US&gl=US&ceid=US:en`
+
+Access notes:
+
+- **Send a browser-like `User-Agent`** when fetching. WSJ's feed returns `403` to the default programmatic user-agent; a header like `Mozilla/5.0 (compatible; ANN-digest/1.0)` gets through. NYT and NBC are open and need no special header.
+- **AP links are Google News redirects.** The `news.google.com/...` URLs are opaque; resolve them to the canonical `apnews.com` article before writing them into the digest.
+- **If a link cannot be confirmed,** list the headline without a link rather than guessing a URL. Every title and link should come verbatim from a feed — nothing invented.
 
 ## What This Is Not
 
