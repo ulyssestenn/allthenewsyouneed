@@ -96,10 +96,6 @@ Each daily file uses this structure:
 Access limitations, if any, are disclosed here.
 ```
 
-## Access Limitations
-
-Some domains, like WSJ and NYT are paywalled or blocked. They won't include direct links, but you can search for their headlines.
-
 ## What This Is Not
 
 This is not an attempt to showcase balance. This is not a substitute for being informed, which requires reading and contemplating actual books and other longform content, not the news. 
