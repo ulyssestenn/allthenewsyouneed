@@ -104,4 +104,16 @@ Some domains, like WSJ and NYT are paywalled or blocked. They won't include dire
 
 This is not an attempt to showcase balance. This is not a substitute for being informed, which requires reading and contemplating actual books and other longform content, not the news. 
 
-This is (more than) all the news you need. 
+This is (more than) all the news you need.
+
+## Implementations
+
+This repository is the concept and specification. Others have built running implementations of it:
+
+- **[ann](https://github.com/wbrown-dev/ann)** by [William C. Brown](https://github.com/wbrown-dev) — a Python implementation that fetches the feeds, uses Claude to apply the selection standard, and serves the digest through a Streamlit dashboard.
+
+Built something? Open an issue or PR to add it here.
+
+## License
+
+The premise, selection standard, and digest format are licensed [CC BY 4.0](LICENSE) © Bethany Hunt (@ulyssestenn). Reuse freely with credit. 
