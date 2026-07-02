@@ -108,7 +108,9 @@ This is (more than) all the news you need.
 
 ## Implementations
 
-This repository is the concept and specification. Others have built running implementations of it:
+This repository is the original: both the concept and a live daily digest, generated each day by a Claude routine that applies the selection standard and pushes a new `headlines-YYYY-MM-DD.md`.
+
+Others have built their own implementations of the concept:
 
 - **[ann](https://github.com/wbrown-dev/ann)** by [William C. Brown](https://github.com/wbrown-dev) — a Python implementation that fetches the feeds, uses Claude to apply the selection standard, and serves the digest through a Streamlit dashboard.
 
