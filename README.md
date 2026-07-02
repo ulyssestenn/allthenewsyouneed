@@ -62,19 +62,19 @@ Each daily file uses this structure:
 ```md
 ## WSJ
 
-1. [Headline]
-2. [Headline]
-3. [Headline]
-4. [Headline]
-5. [Headline]
+1. [Headline](https://example.com/article)
+2. [Headline](https://example.com/article)
+3. [Headline](https://example.com/article)
+4. [Headline](https://example.com/article)
+5. [Headline](https://example.com/article)
 
 ## NYT
 
-1. [Headline]
-2. [Headline]
-3. [Headline]
-4. [Headline]
-5. [Headline]
+1. [Headline](https://example.com/article)
+2. [Headline](https://example.com/article)
+3. [Headline](https://example.com/article)
+4. [Headline](https://example.com/article)
+5. [Headline](https://example.com/article)
 
 ## NBC
 
