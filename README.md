@@ -1,6 +1,6 @@
 # All the News You Need
 
-[Go to Today's Headlines.](headlines-2026-07-02.md)
+[Go to Today's Headlines.](headlines-2026-07-03.md)
 
 The premise: news consumption is not civic virtue, a way to stay well-informed, or a sound path to better understanding the world. The news is inherently prone to focusing on outlier events, sensational content, and outrage.
 
