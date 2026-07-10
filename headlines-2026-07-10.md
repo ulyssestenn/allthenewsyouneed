@@ -1,7 +1,7 @@
 ## WSJ
 
-1. [U.S., Iran Trade Fire in Largest Escalation Since Peace Deal](https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-trump-declares-ceasefire-over-2c0738fe)
-2. [Ukraine’s Drones Are Now Reaching Siberia and Imperiling Russian Energy Assets](https://www.wsj.com/world/ukraines-drones-are-now-reaching-siberia-and-imperiling-russian-energy-assets-e0d2caa7)
+1. [Ukraine’s Drones Are Now Reaching Siberia and Imperiling Russian Energy Assets](https://www.wsj.com/world/ukraines-drones-are-now-reaching-siberia-and-imperiling-russian-energy-assets-e0d2caa7)
+2. [Trump Wanted 20,000 Peacekeeping Troops in Gaza. He Is Starting With 10 to 20.](https://www.wsj.com/world/middle-east/trump-wanted-20-000-peacekeeping-troops-in-gaza-he-is-starting-with-10-to-20-cf0ab958)
 3. [The Fight Over Hormuz Boils Down to One Poorly Worded Clause in Trump’s Deal](https://www.wsj.com/world/middle-east/iran-deal-strait-of-hormuz-b027c30f)
 4. [Meta Failed to Protect Users From Addictive Apps, EU Says](https://www.wsj.com/tech/meta-failed-to-protect-users-from-addictive-apps-eu-says-a4e21a74?mod=rss_Technology)
 5. [Volkswagen Seeks to Halve Model Lineup and Shrink Capacity to Cut Costs](https://www.wsj.com/business/autos/volkswagen-seeks-to-halve-model-lineup-and-shrink-capacity-to-cut-costs-7b3aa171?mod=pls_whats_news_us_business_f)
