@@ -42,6 +42,7 @@ Preference is given to developments with durable consequences, including:
 - Public health, medical developments
 - Infrastructure, energy, and logistics
 - Major institutional changes
+- Major cultural impact
 
 The digest intentionally avoids or deprioritizes:
 
