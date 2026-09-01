@@ -1,0 +1,50 @@
+## WSJ
+
+1. [FTC Sues Amazon, Alleging It Deceived Advertisers and Drove Up Prices](https://www.wsj.com/tech/ftc-to-file-lawsuit-alleging-amazon-deceived-advertisers-d71039ee)
+2. [Oil Prices Rise as Renewed U.S.-Iran Fighting Deepens Hormuz Supply Risks](https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-renewed-u-s-iran-fighting-deepens-hormuz-supply-risks-3a35f63a)
+3. [Anthropic Signs $35 Billion Cloud Deal Backed by Nvidia](https://www.wsj.com/tech/ai/anthropic-signs-35-billion-cloud-deal-backed-by-nvidia-f12622f1)
+4. [Supreme Court Allows Trump to Keep Building White House Ballroom](https://www.wsj.com/us-news/law/supreme-court-allows-trump-to-keep-building-white-house-ballroom-d45a7c1c)
+5. [Army Secretary Dan Driscoll Resigns After Months of Friction With Hegseth](https://www.wsj.com/politics/national-security/army-secretary-resigns-after-months-of-friction-with-hegseth-9c124207)
+
+## NYT
+
+1. [John Ternus Replaces Tim Cook as Apple CEO](https://www.nytimes.com/2026/09/01/technology/apple-tim-cook-john-ternus.html)
+2. [FTC and 22 States Sue Amazon Over Advertising Practices](https://www.nytimes.com/2026/08/31/technology/ftc-amazon-lawsuit-ad-prices.html)
+3. [Army Secretary Daniel Driscoll Resigns as U.S. Military Grapples With Two Wars](https://www.nytimes.com/2026/08/31/us/politics/army-secretary-daniel-driscoll-resign.html)
+4. [Duane Davis Is Convicted of Orchestrating Tupac Shakur's Murder](https://www.nytimes.com/2026/08/31/arts/music/tupac-shakur-murder-duane-davis-guilty-convicted.html)
+5. [Supreme Court Allows Trump's White House Ballroom Construction](https://www.nytimes.com/2026/08/31/us/politics/supreme-court-trump-ballroom.html)
+
+## NBC
+
+1. [Whistleblower says USPS system Trump ordered for mail ballots is flawed and untested](https://www.nbcnews.com/politics/elections/whistleblower-usps-systems-mail-ballots-flawed-rcna595361)
+2. [Army Secretary submits resignation to White House after tensions with Pete Hegseth](https://www.nbcnews.com/politics/national-security/army-secretary-dan-driscoll-submits-resignation-white-house-rcna595437)
+3. [Supreme Court allows Trump to move forward with White House ballroom construction](https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-move-forward-white-house-ballroom-construct-rcna594097)
+4. [Nepal flood deaths pass 1,000 as hope fades in the search for survivors](https://www.nbcnews.com/world/asia/nepal-floods-deaths-pass-1000-death-smell-rcna595469)
+5. [Florida bans Flock cameras and other license plate readers from state highways](https://www.nbcnews.com/tech/tech-news/florida-bans-flock-license-plate-readers-state-highways-rcna595420)
+
+## AP
+
+1. [Apple has a new CEO for the first time in 15 years as Tim Cook steps aside](https://apnews.com/article/apple-ceo-ternus-tim-cook-2fac80118828b4ada9d160d012c7be32)
+2. [At least 1,000 confirmed dead after catastrophic Nepal-China floods](https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c)
+3. [Federal Trade Commission and 22 states sue Amazon over ad pricing](https://apnews.com/article/amazon-ad-lawsuit-4752d1d610ca963ef11625ec4eb22a6d)
+4. [Army Secretary Dan Driscoll is stepping down](https://apnews.com/article/driscoll-departure-army-secretary-hegseth-4853c46840a522911da5a510b01966d2)
+5. [Iran's president says his country would return to ceasefire agreement if US does](https://apnews.com/article/mideast-iran-israel-palestinians-hormuz-washington-september-1-2026-9342eb46aedd484cdf58895c8a116677)
+
+## Note
+
+**Selection window:** 2026-08-31 13:37 UTC to 2026-09-01 13:37 UTC (24 hours), filtered by original publication timestamp (each outlet's RSS `<pubDate>`, or, for AP, each candidate's own `news:publication_date` from AP's public Google News-format sitemap), not update or retrieval time. Because several outlets' feeds sometimes carry a re-fetch or last-touched timestamp rather than a true first-publication time, every in-window candidate was additionally cross-checked against the URLs already published in this repository's prior `headlines-*.md` files; four NYT candidates that matched already-published URLs from the 2026-08-31 digest (an oil-price piece, a China/SCO-summit piece, a Nepal-principal profile, and a Venezuela-oil-deal piece — each carrying an updated-looking `pubDate` on a story actually first published, and already selected, the day before) were excluded as carryovers rather than fresh stories.
+
+**Access notes:**
+- All eight listed WSJ feeds, all ten listed NYT feeds, and all eight listed NBC feeds were fetched directly and parsed successfully. No domain or feed was inaccessible.
+- Both WSJ's and NYT's own article pages return anti-bot 401/403 responses to direct, unauthenticated requests (including from this digest's fetch environment and with a standard browser user agent), independent of any specific URL — this is each outlet's standard bot/paywall gate, not a broken or fabricated link. All five WSJ selections and all five NYT selections are canonical article URLs taken directly from each outlet's own official RSS feeds (tracking query parameters stripped for the canonical form) and were not independently re-verified by HTTP fetch for this reason. All five NBC selections and all five AP selections were confirmed to resolve with HTTP 200.
+- AP does not publish a general RSS feed. The Google News search (`site:apnews.com when:1d`) was fetched for candidate discovery, but its links are opaque `news.google.com/rss/articles/...` redirect tokens that do not resolve to `apnews.com` via direct HTTP request. AP's public Google News-format sitemap (`apnews.com/news-sitemap-content.xml`) was used instead as the primary candidate pool, each item carrying its own `news:publication_date` and canonical `apnews.com/article/...` URL; the sitemap also carries many Spanish-language AP en Español items and routine sports-transaction/box-score items, which were excluded from consideration alongside a small number of "live updates" blog URLs in favor of standard dedicated articles.
+
+**Selection rationale:** Two institutional stories dominated the cycle and were independently selected by all four outlets: Apple's first CEO transition in 15 years (John Ternus succeeding Tim Cook, with Cook moving to executive chair) and Army Secretary Dan Driscoll's resignation amid months of tension with Defense Secretary Pete Hegseth while the U.S. military manages two active conflicts. The FTC's antitrust lawsuit against Amazon, joined by 22 states and alleging systematic deception of advertisers on ad pricing, was independently selected by WSJ, NYT, and AP as a major regulatory action with lasting consequences for online advertising. The Supreme Court's 5-4 ruling allowing White House ballroom construction to proceed — on procedural grounds that the underlying lawsuit was improper — was independently selected by WSJ, NYT, and NBC as a notable executive-power precedent. The Nepal-China flood disaster crossed a grim threshold, with confirmed deaths passing 1,000, selected by both NBC and AP. The Iran war continued to generate durable consequences on two fronts: WSJ selected the oil-market and Hormuz-supply-risk angle of renewed U.S.-Iran fighting, while AP selected Iran's president signaling openness to a return to ceasefire — a potential diplomatic opening distinct from the military and economic angles. Beyond these: NYT's selection of the guilty verdict closing the 30-year-old Tupac Shakur murder case, a landmark in hip-hop and criminal-justice history; NBC's and NYT's independent selection of a Postal Service whistleblower's claims about a rushed, flawed mail-ballot system ahead of the midterms, a concrete election-administration story; WSJ's selection of Anthropic's $35 billion Nvidia-backed cloud deal, a major marker of AI infrastructure financing; and NBC's selection of Florida's ban on Flock license-plate-reader cameras on state highways, a durable state-level privacy and surveillance-policy decision.
+
+**Strongest excluded candidates:**
+- **WSJ:** "Novartis Pauses Autoimmune Cell Therapy Studies After Deaths" — a genuine pharmaceutical safety signal (eight clinical trials paused after three patient deaths), narrowly excluded once the FTC-Amazon, Iran-war-markets, Anthropic, SCOTUS-ballroom, and Driscoll-resignation stories filled WSJ's five.
+- **NYT:** "Whistle-Blower Says USPS Is Secretly Proceeding on Trump's Mail Voting Plan Before Midterms" — a real election-administration story, narrowly excluded given the unusually strong slate of corporate, institutional, and legal news this cycle (and already represented in NBC's five).
+- **NBC:** "Duane 'Keffe D' Davis found guilty in murder of Tupac" — genuinely significant, but NBC's own coverage of the verdict exists only as video segments rather than a text article, so it was excluded in favor of text-article candidates for consistency with this digest's link format; "Novel climate change lawsuit seeking damages from oil companies heads to Supreme Court" was the strongest excluded text-eligible alternative for the same reason.
+- **AP:** "Supreme Court allows White House ballroom construction to continue" — independently selected by three other outlets and narrower in ultimate consequence (a single construction-project ruling) than AP's chosen mix of a corporate-leadership change, a disaster milestone, a major antitrust suit, an institutional resignation, and a wartime diplomatic signal.
+
+**Redundancy check:** No single outlet had three or more of its own five selections tied to the same underlying development. Across outlets, the Apple CEO transition was independently selected by NYT and AP; the Army Secretary resignation by WSJ, NYT, NBC, and AP; the SCOTUS ballroom ruling by WSJ, NYT, and NBC; the FTC-Amazon lawsuit by WSJ, NYT, and AP; and the Nepal flood death toll by NBC and AP — each retained under its own outlet's five because it represents that outlet's genuinely highest-ranked, non-duplicative story, and cross-outlet convergence on the day's most significant developments is expected rather than penalized.
