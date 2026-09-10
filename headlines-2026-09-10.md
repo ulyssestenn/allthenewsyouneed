@@ -1,0 +1,51 @@
+## WSJ
+
+1. [Yemen's Iran-Backed Houthis Sweep Toward Strategic Bab al-Mandeb](https://www.wsj.com/world/middle-east/yemens-iran-backed-houthis-sweep-toward-strategic-bab-al-mandeb-c1786d79?mod=rss_worldnews)
+2. [OPEC Further Cuts Demand Growth Forecast as Oil Surpasses $100 a Barrel](https://www.wsj.com/business/energy-oil/opec-further-cuts-this-years-oil-demand-growth-forecast-79ed23ad?mod=pls_whats_news_us_business_f)
+3. [America Leans on Fusion Breakthroughs to Turbocharge Its Nuclear Weapon Arsenal](https://www.wsj.com/politics/national-security/nuclear-fusion-weapons-testing-china-russia-0b5fcfa9?mod=pls_whats_news_us_business_f)
+4. [Huawei Faces U.S. Criminal Trial Weeks Before Trump-Xi Meeting](https://www.wsj.com/politics/national-security/huawei-faces-u-s-criminal-trial-weeks-before-trump-xi-meeting-d5e21663?mod=pls_whats_news_us_business_f)
+5. [Anthropic Researcher Quits Over 'Out-of-Control' AI Fears](https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628?mod=rss_Technology)
+
+## NYT
+
+1. [Yemen's Houthis Seize Strategic Red Sea Port, Officials Say](https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html)
+2. [Oil Prices Surge as Fighting in Middle East Escalates](https://www.nytimes.com/2026/09/10/business/oil-middle-east-iran-war.html)
+3. [Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity](https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html)
+4. [Trump Wants to Give Out $5,000 Checks. It Would Cost More Than $1 Trillion.](https://www.nytimes.com/2026/09/10/us/politics/trump-dividend-5000-check.html)
+5. [European Central Bank Raises Rates in Bid to Quell Inflation](https://www.nytimes.com/2026/09/10/business/european-central-bank-interest-rates.html)
+
+## NBC
+
+1. [Trump $5k 'dividend' proposal may not be possible legally and financially](https://www.nbcnews.com/now/video/trump-5k-dividend-proposal-may-not-be-possible-legally-and-financially-269600325585)
+2. [Bessent's move to tamp down rates backfires as bond yields jump, stocks tumble](https://www.nbcnews.com/business/economy/bessent-treasury-bonds-repurchase-rcna596819)
+3. [Trump admin fires prosecutor in dropped case against politically linked billionaire](https://www.nbcnews.com/politics/justice-department/trump-administration-fires-prosecutor-dropped-case-politically-linked-rcna596848)
+4. [Missouri redistricting fight heads back to Supreme Court](https://www.nbcnews.com/politics/elections/missouri-court-opens-contempt-probe-republican-official-redistricting-rcna596803)
+5. [Hurricane Lowell leaves trail of destruction across Kauai](https://www.nbcnews.com/weather/hurricanes/hurricane-lowell-flooding-destruction-hawaii-kauai-rcna596804)
+
+## AP
+
+1. [Trump, hoping to salvage midterms, makes a dubious pledge to give every US adult $5,000 if GOP wins](https://www.wral.com/news/ap/cc806-trump-hoping-to-salvage-midterms-makes-dubious-pledge-to-give-every-us-adult-5-000-if-gop-wins/)
+2. [Oil surges above $100 a barrel as US and Iran launch new attacks, while gasoline prices also jump](https://www.local10.com/news/2026/09/09/oil-surges-above-100-a-barrel-as-us-and-iran-launch-new-attacks-while-gasoline-prices-also-jump/)
+3. [UN nuclear watchdog board reports Iran to the UN Security Council for the first time in 20 years](https://www.inquirer.com/news/nation-world/un-iran-atomic-watchdog-security-council-20260909.html)
+4. [Anthropic researcher resigns with warning about the dangers of AI development](https://www.wral.com/news/ap/2ed54-anthropic-researcher-resigns-with-warning-about-the-dangers-of-ai-development/)
+5. [Global heat stuck on high. Scientists say August was Earth's hottest month they've measured.](https://abcnews.com/US/wireStory/global-heat-stuck-high-scientists-august-earths-hottest-136323671)
+
+## Note
+
+**Selection window:** 2026-09-09 13:37 UTC to 2026-09-10 13:37 UTC (24 hours), filtered by each item's original publication timestamp (each outlet's own RSS `<pubDate>` for WSJ/NYT/NBC; for AP, the article's own byline dateline/timestamp on the verified wire-syndication page and the Google News aggregation timestamp, not Google's feed-retrieval time).
+
+**Access notes:**
+- All eight listed WSJ feeds, all ten listed NYT feeds, and all eight listed NBC feeds were fetched directly with the specified user agent and parsed successfully as RSS/XML. No feed was inaccessible.
+- WSJ and NYT article pages themselves were not fetched directly (both outlets gate full article access behind login/paywall). All five WSJ and five NYT links are canonical URLs taken directly from each outlet's own RSS feeds, unmodified.
+- All five NBC links were verified to return HTTP 200; one (#1) is a video segment rather than a text article, as that was the only NBC item covering the legal/fiscal feasibility of Trump's $5,000 pledge.
+- **apnews.com was completely inaccessible this cycle** — direct fetches (curl with the specified user agent, and a full browser user agent) returned HTTP 403 (Cloudflare bot-challenge page) for the homepage and every apnews.com article URL, and an authenticated fetch tool likewise reported it could not reach the domain. As instructed for domains that cannot be fetched directly, each AP headline was cross-verified using another reliable index: candidates were identified from the specified Google News search (`site:apnews.com when:1d`), then each finalist's exact headline, AP byline, and publication timestamp were independently confirmed on a verified AP wire-syndication partner page (a newspaper or broadcaster site carrying the unmodified AP wire text under an AP reporter's byline) that returned HTTP 200. Several Nexstar-network affiliate mirrors (kron4.com, wjtv.com, wpri.com, woodtv.com) also carried matching AP text but returned HTTP 403 to the fetch tool, so working mirrors (wral.com, local10.com, inquirer.com, abcnews.com) were used instead. A secondary attempt to resolve Google News's redirect links directly to their canonical apnews.com URLs via Google's internal batch-request API was also made; the request executed but returned no usable result (likely requiring session tokens not available to this fetch method), so it was abandoned in favor of the verified-syndication approach. All five AP links point to these verified syndication copies rather than apnews.com itself; all five carry a visible "Associated Press" byline and headline text identical to AP's own, and all five publication timestamps fall inside the selection window.
+
+**Selection rationale:** The dominant cross-outlet development of the cycle was the continued escalation of the U.S.-Iran/Middle East conflict on multiple fronts — Iran-backed Houthi forces swept toward and seized a strategic Red Sea port near the Bab al-Mandeb strait, oil surged past $100 a barrel on the resulting supply fears, and the UN's nuclear watchdog referred Iran to the Security Council for the first time in 20 years — selected in some form by all four outlets, reflecting active war escalation, its immediate global economic transmission, and its diplomatic/nonproliferation consequences as three genuinely distinct threads. A second cross-outlet thread was Trump's pledge, at the GOP's midterm convention, to send every American adult a $5,000 "dividend" check if Republicans hold Congress — a proposal with trillion-dollar fiscal implications and uncertain legality, covered by NYT, NBC, and AP. A third thread was a prominent Anthropic AI researcher's resignation with a public warning that AI developers' race for capability is outpacing safety, covered by WSJ, NYT, and AP as evidence of a widening rift inside the AI industry over existential risk. Beyond these threads, outlets diverged to capture other durable stories: a nearly-decade-delayed U.S. criminal trial against Huawei opening weeks before a Trump-Xi summit, and a report on the U.S. turning to nuclear-fusion breakthroughs to modernize its nuclear-weapons arsenal (WSJ); the European Central Bank's second rate hike of the year (NYT and, independently, AP's oil coverage captured the parallel Fed-adjacent global-rates story); the Treasury secretary's bond-market intervention backfiring, the firing of a federal prosecutor in a dropped case against a politically connected billionaire, and a Missouri redistricting fight returning to the Supreme Court (NBC); and Earth's hottest August on record, a milestone in the ongoing climate-data record (AP).
+
+**Strongest excluded candidates:**
+- **WSJ:** "The ECB Just Raised Interest Rates: Here's What to Know" — a genuinely major global monetary-policy action, narrowly excluded because NYT's slate already captured this thread and WSJ's five needed room for the Huawei trial and nuclear-fusion-weapons stories to preserve topical diversity beyond markets and the Middle East.
+- **NYT:** "Justice Dept. Investigates Nvidia Deal With Groq" — a potentially significant antitrust probe into a major AI-infrastructure deal, but judged less durably certain than the completed ECB rate action, since the investigation's outcome and scope remain unresolved.
+- **NBC:** "At least five dead, dozens missing after Philippine ferry fire" — a serious international disaster, narrowly excluded in favor of Hurricane Lowell's more direct tie to U.S. infrastructure and NBC's domestic-national-news lane, avoiding a second natural-disaster slot.
+- **AP:** "Hong Kong court convicts Wall Street Journal publisher of deterring reporter from taking union role" — a real press-freedom and institutional story, excluded as narrower in immediate global consequence than the five selected macro, geopolitical, and AI-safety stories.
+
+**Redundancy check:** No outlet had three or more of its own five selections tied to a single underlying development. WSJ, NYT, and AP each carried two items touching the broader Middle East/Iran-conflict sphere; in each case the two items reflect genuinely distinct durable consequences (a military/territorial development versus its economic transmission via oil prices, or versus its diplomatic/nonproliferation track at the UN), so no substitution was required under the redundancy rule.
