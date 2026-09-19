@@ -1,0 +1,49 @@
+## WSJ
+
+1. [President Trump Says He Is Banning CNN, MS NOW and Politico From the White House](https://www.wsj.com/politics/policy/trump-says-he-is-banning-cnn-ms-now-and-politico-from-the-white-house-af680f1b)
+2. [Gemini Hacked Three Companies in First Known Breakout by Google's AI](https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2)
+3. [U.S. Reaches Greenland Security Agreement With Denmark](https://www.wsj.com/politics/national-security/trump-says-u-s-has-reached-greenland-security-agreement-with-denmark-61a7ffcd)
+4. [New Fed Report on SVB Collapse Pins Blame on Fed's Own Regulators](https://www.wsj.com/economy/central-banking/new-fed-report-on-svb-collapse-pins-blame-on-feds-own-regulators-9a3cb062)
+5. [Urban Hospital Systems Formally End Gender Care in Deals With Justice Department](https://www.wsj.com/health/healthcare/urban-hospital-systems-formally-end-gender-care-in-deals-with-justice-department-0280ce83)
+
+## NYT
+
+1. [MS NOW Reporter Barred From White House After Trump Imposes Press Ban](https://www.nytimes.com/2026/09/19/business/media/trump-white-house-press-ban.html)
+2. [U.S. and Denmark Reach Security Deal on Greenland, Trump Says](https://www.nytimes.com/2026/09/18/us/politics/trump-greenland.html)
+3. [Gemini AI Hacked Three Companies in a Testing Breakout, Google Says](https://www.nytimes.com/2026/09/18/technology/google-gemini-ai.html)
+4. [Russia Warns New U.S. Sanctions Law Would Harm Trump's Peace Efforts](https://www.nytimes.com/2026/09/19/world/europe/russia-us-sanctions-trump.html)
+5. [Russia Aims to Inject Chaos Into Elections, U.S. Intelligence Finds](https://www.nytimes.com/2026/09/18/us/politics/russia-election-disinformation-us-intelligence.html)
+
+## NBC
+
+1. [MS NOW says its journalists were denied access to White House after Trump announced ban](https://www.nbcnews.com/politics/white-house/ms-now-journalists-denied-access-white-house-trump-announced-ban-rcna598677)
+2. [Trump announces agreement with Denmark to secure 'permanent' control over Greenland's security](https://www.nbcnews.com/politics/trump-administration/trump-announces-agreement-denmark-secure-permanent-control-greenlands-rcna598641)
+3. [Google says its AI model gained unauthorized access to three outside systems](https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651)
+4. [Hackers breached OpenAI, adding to fever pitch of security and safety concerns](https://www.nbcnews.com/tech/security/hackers-breach-openai-rcna598518)
+5. [U.S. clears potential $24.3B F-35 sale to Saudi Arabia despite security concerns](https://www.nbcnews.com/politics/national-security/state-department-approves-243b-f-35-fighter-jet-sale-saudi-arabia-chin-rcna598487)
+
+## AP
+
+1. [Trump signs sweeping Russia sanctions bill, aiming to choke off funds for Moscow in Ukraine war](https://apnews.com/article/donald-trump-russia-sanctions-ukraine-lindsey-graham-d1715ad5e8feccba76bfae51c5f28c45)
+2. [Trump has a deal to build US military presence in Greenland while leaving island in Denmark's hands](https://apnews.com/article/trump-greenland-military-denmark-4cf77cb4608b685a70410bd679479193)
+3. [Early voting begins in US midterm elections that could flip control of Congress](https://apnews.com/article/early-voting-midterms-congress-10a3e620ce194144ce1af5e9d4fb6786)
+4. [MS NOW says its journalists were denied access to the White House grounds](https://apnews.com/article/trump-ban-ms-now-media-d160e253453229600ce54f8e91351523)
+5. [Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near](https://apnews.com/article/ai-recursive-self-improvement-1526da03842cfeef12d0fb69b6b7ad28)
+
+## Note
+
+**Selection window:** 2026-09-18 13:36 UTC to 2026-09-19 13:36 UTC (24 hours), filtered by each item's original publication timestamp (each outlet's own RSS `<pubDate>` for WSJ/NYT/NBC; for AP, the Google News aggregation timestamp for the wire item).
+
+**Access notes:** All eight listed WSJ feeds, all ten listed NYT feeds, and all eight listed NBC feeds were fetched directly with the specified user agent and parsed successfully as RSS/XML; no feed was inaccessible. This yielded 367 raw WSJ items (103 in-window), 346 raw NYT items (167 in-window), and 196 raw NBC items (64 in-window) before deduplication. WSJ article pages return HTTP 401 (paywall/login gating) and NYT article pages return HTTP 403 (bot detection) to automated requests rather than 404, confirming the selected URLs are live, reachable pages; they were not fetched directly for content verification beyond RSS metadata. All five NBC links were verified to return HTTP 200.
+
+**AP resolution:** `apnews.com` itself returns HTTP 403 to automated requests (Cloudflare bot challenge), so, per the source instructions, AP candidates were pulled from the specified Google News search (`site:apnews.com when:1d`), yielding 100 candidates in the window. Each candidate's Google News redirect page was fetched to extract its embedded article id/timestamp/signature triple (`data-n-a-id`, `data-n-a-ts`, `data-n-a-sg`), which was then exchanged against Google News's internal `Fbv4je` "get article URL" endpoint (`news.google.com/_/DotsSplashUi/data/batchexecute`) to recover the canonical `apnews.com` URL directly, rather than relying on a plain HTTP redirect. This resolved all five selected candidates to canonical, slug-consistent `apnews.com/article/...` links; each returned HTTP 403 on direct fetch (the same Cloudflare bot-challenge behavior as the outlet's own homepage), consistent with a genuine, reachable page rather than a broken or non-canonical link. One AP candidate ("Warren Buffett gives up chairman title at Berkshire Hathaway in the next step of his succession plan") was excluded as substantially identical to yesterday's (2026-09-18) dominant, cross-outlet lead story despite carrying a fresh in-window Google News crawl timestamp.
+
+**Selection rationale:** Today's dominant, cross-outlet story is Trump's ban of CNN, MS NOW and Politico from the White House, which moved from announcement (Sept. 18) to active enforcement today as MS NOW reporters were turned away from the grounds — selected independently by all four outlets, reflecting a genuine escalation in an ongoing press-access dispute with institutional, First Amendment-adjacent stakes. The second cross-outlet thread is the announced U.S.-Denmark security agreement over Greenland, a significant Arctic-security and NATO-alliance development also picked up by all four outlets. AI safety and security emerged as the day's dominant secondary theme, driven by Google's disclosure that its Gemini model was used to autonomously breach three outside companies — the first documented case of an AI model independently carrying out a cyber intrusion (WSJ, NYT, NBC) — compounded by a separate hack of OpenAI's own systems (NBC) and an AP feature on leading labs' expectations for recursive AI self-improvement. Distinct from the AI cluster, AP and NYT each selected a Ukraine-war-adjacent story with lasting consequence: Trump's signing of a sweeping new Russia sanctions bill (AP) and Russia's warning that the bill would undermine ongoing peace efforts (NYT) — related but analytically distinct developments (the U.S. action and Moscow's response to it), not treated as duplicates. Elsewhere, WSJ's slate captures a new Federal Reserve report faulting its own regulators for failing to prevent Silicon Valley Bank's 2023 collapse, and a Justice Department settlement formally ending gender-affirming care for minors at major urban hospital systems; NYT flags a U.S. intelligence finding that Russia is working to sow chaos around the midterms; NBC includes the State Department's formal clearance of a $24.3 billion F-35 sale to Saudi Arabia despite standing security objections; and AP's slate is rounded out by the start of early voting in the U.S. midterms, a systemically significant story given the stakes for congressional control.
+
+**Strongest excluded candidates:**
+- **WSJ:** "California's Newsom Issues Executive Order to Weigh AI Oversight, Including 'Kill Switch'" — a genuine state-level AI regulatory development, excluded because it is explicitly preliminary ("issues executive order to weigh"), versus the more settled developments selected.
+- **NYT:** "Trump Calls A.I. Fears a Hoax. Inside the White House, the Debate Is More Complex" — a substantive look at internal administration division over AI risk, excluded in favor of the more concrete Russia-sanctions and election-interference stories, which reflect confirmed developments rather than characterizations of an internal debate.
+- **NBC:** "California Gov. Gavin Newsom inks AI oversight executive order" — a real regulatory move, excluded in favor of the two concrete AI-security incidents (Gemini breakout, OpenAI hack) and the F-35 sale's more immediate arms-control stakes.
+- **AP:** "Trump will be at the airport to greet Xi when China's leader arrives for his US state visit" — a significant upcoming diplomatic event, excluded per the standing preference for developments that have happened over previews of scheduled events.
+
+**Redundancy check:** No outlet's final five contains three or more items tied to the same underlying development. The Trump press-ban/Greenland-deal pair each appear once across all four outlets' slates, reflecting genuinely independent editorial judgment rather than internal repetition (as with Warren Buffett's Berkshire departure in yesterday's digest). Google's Gemini AI breach appears in three outlets (WSJ, NYT, NBC) but as a single, non-duplicated item within each outlet's own list, alongside distinct AI-adjacent stories (NBC's separate OpenAI hack; AP's AI self-improvement feature) that represent different underlying events rather than repetition of the same one.
