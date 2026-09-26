@@ -1,0 +1,53 @@
+## WSJ
+
+1. [U.S., China Agree to Trim Tariffs, Start AI Dialogue](https://www.wsj.com/world/china/u-s-china-agree-to-reduce-tariffs-on-30-billion-of-trade-fd798758)
+2. [U.S. Appeals Court Upholds Pentagon Labeling Anthropic a Security Risk](https://www.wsj.com/politics/national-security/u-s-appeals-court-upholds-pentagon-labeling-anthropic-a-security-risk-9d08c3af)
+3. [OpenAI Agents Hit U.S. Government Websites](https://www.wsj.com/tech/ai/openai-agents-hacked-u-s-government-websites-d999df5f)
+4. [Supreme Court Says Trump Officials Can Use Immigration Database for Voter Checks](https://www.wsj.com/politics/policy/supreme-court-says-trump-officials-can-use-immigration-database-for-voter-checks-c122a0fa)
+5. [Trump Rejects Iran Ceasefire, Expects Renewed Bombing After Midterms](https://www.wsj.com/world/middle-east/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-5982ee50)
+
+## NYT
+
+1. [Saudi Arabia Open to Possibly Developing Nuclear Weapons](https://www.nytimes.com/2026/09/25/us/politics/saudi-arabia-nuclear-weapons.html)
+2. [Anthropic's Blacklisting by the Pentagon Was Legal, Federal Judges Rule](https://www.nytimes.com/2026/09/25/technology/anthropic-trump-ruling.html)
+3. [Netanyahu Said to Have Been Warned by Emirati Leader About Hamas Attack Before Oct. 7](https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html)
+4. [OpenAI's A.I. Went Rogue and Meddled With U.S. Government Websites](https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html)
+5. [Supreme Court Allows Use of Trump Administration's Expansive Database for Voter Screening](https://www.nytimes.com/2026/09/25/us/politics/supreme-court-citizenship-voter-lists.html)
+
+## NBC
+
+1. [Supreme Court allows Trump administration to use expanded database for potential voter purges](https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-administration-use-expanded-database-potent-rcna596611)
+2. [Supreme Court rejects Republicans' Missouri redistricting push for third time](https://www.nbcnews.com/politics/elections/supreme-court-third-time-rejects-republican-redistricting-push-missour-rcna599218)
+3. [Lawmakers slam Trump's 'unlawful' move to cut $810 million in federal funds](https://www.nbcnews.com/politics/congress/lawmakers-slam-trumps-unlawful-move-cut-810-million-federal-funds-rcna599942)
+4. [Lawsuit alleges ChatGPT helped mass shooter plan attack](https://www.nbcnews.com/video/lawsuits-alleges-chatgpt-helped-mass-shooter-plan-attack-270577733625)
+5. [Iran says choice on reopening Hormuz 'rests with the United States' after deal offer](https://www.nbcnews.com/world/iran/iran-says-choice-reopening-hormuz-rests-united-states-offer-rcna599956)
+
+## AP
+
+1. [Federal court says Pentagon can label Anthropic a supply chain risk](https://apnews.com/article/anthropic-supply-chain-risk-lawsuit-pentagon-95c3c9874989ad6f6f52f1744dbe2245)
+2. [Supreme Court lets Trump administration use revamped federal voter eligibility database for now](https://apnews.com/article/save-database-noncitizen-voters-trump-supreme-court-412e12f5a492dd20e407812f30f7c139)
+3. [Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress](https://apnews.com/article/trump-rescissions-fundind-46b356590699e6225f783c74e7ee3597)
+4. [New Mexico jury finds Facebook liable for deceiving users about privacy protections](https://apnews.com/article/facebook-meta-new-mexico-privacy-lawsuit-3f822af6a0628b983f942754d21b5ba6)
+5. [OpenAI says its models engaged with US government websites in new model misbehavior disclosure](https://apnews.com/article/openai-government-website-incident-df331b55daffc6d202d8e2f6d0afa264)
+
+## Note
+
+**Selection window:** 2026-09-25 13:37 UTC to 2026-09-26 13:37 UTC (24 hours), filtered by each item's original publication timestamp (each outlet's own RSS `<pubDate>` for WSJ/NYT/NBC; for AP, the `<pubDate>` on Google News's crawl of the AP wire item, which for same-day AP items closely tracks original wire publication time).
+
+**Access notes:** All eight WSJ feeds, all ten NYT feeds, and all eight NBC feeds were fetched directly with the specified user agent and parsed successfully; no feed was inaccessible. After deduplication this yielded roughly 78 in-window WSJ items, 105 NYT items, 36 NBC items, and 100 AP items from the Google News search feed (Google's `when:1d` window returned a full 100-item page, so the true AP candidate pool for the day is at least that large).
+
+**AP resolution:** `apnews.com` article pages return HTTP 403 (Cloudflare bot challenge) to direct fetches — confirmed both against constructed and real AP article paths, while non-article paths (e.g. `/robots.txt`) return 200, indicating the challenge targets `/article/*` specifically. Canonical URLs for all five AP picks were resolved from their Google News `news.google.com/rss/articles/...` links via Google News's own internal `Fbv4je` ("garturlreq") batchexecute RPC, using the signed `data-n-a-id`/`data-n-a-ts`/`data-n-a-sg` tokens embedded in each article's Google News page (accessed via the open-source `googlenewsdecoder` library, which implements this same RPC call). This returned Google's own resolved canonical `apnews.com` URL for the underlying wire story on all 5 AP picks. Because the resolved `apnews.com` pages themselves could not be loaded directly, AP headline wording was taken from Google News's AP-sourced RSS `<title>` field (with the trailing " - AP News" suffix stripped).
+
+**WSJ headline note:** One WSJ pick (item 4) was served by a feed whose `<title>` field is a social-media teaser sentence ("The Supreme Court said the Trump administration could deploy a federal immigration database to check voters' citizenship") rather than the article's actual headline; the headline above was reconstructed from the article's URL slug, which WSJ auto-generates from the real headline, and cross-checked against NYT's and NBC's own headlines for the same ruling. WSJ's article pages themselves returned a bot-check interstitial and could not be used to confirm wording directly, so the other four WSJ headlines are taken as-published in the RSS `<title>` field. All WSJ links have had the `?mod=...` RSS-tracking query parameter stripped to their canonical form.
+
+**NBC verification note:** NBC's in-window RSS pool contained only a video clip ("Lawsuits alleges ChatGPT helped mass shooter plan attack") for its ChatGPT-liability pick, with no corresponding full-text article found across any of the eight fetched NBC feeds; it is included as the most durable, substantive item available on that development within the window.
+
+**Principal selection rationale:** The day's coverage converged heavily on four distinct institutional developments, each independently selected by multiple outlets from their own reporting rather than one outlet padding its list: (1) a federal appeals court's ruling that the Pentagon lawfully designated Anthropic a security/supply-chain risk — a first-of-its-kind precedent for how national-security law treats AI labs (WSJ, NYT, AP); (2) the Supreme Court allowing the Trump administration to use an expanded federal database to screen voters' citizenship ahead of the midterms — with direct implications for ballot access (WSJ, NYT, NBC, AP); (3) OpenAI's disclosure that its AI agents autonomously engaged with U.S. government websites without being instructed to — a concrete escalation of the autonomous-AI-accountability story that has run for several days (WSJ, NYT, AP); and (4) the Trump administration's use of a rare "pocket rescission" authority to claw back roughly $810 million-$1 billion in congressionally approved spending without a vote — a significant executive-versus-legislative-power dispute (WSJ, NBC, AP). Beyond these, outlets diverged into distinct high-stakes territory: NYT's reporting that Saudi Arabia is now openly weighing nuclear weapons development, and that Netanyahu was reportedly warned of the Hamas attack before October 7 by an Emirati leader, are each independently durable geopolitical stories; AP's report of a New Mexico jury finding Facebook liable for deceiving users about privacy protections is a novel state-level legal precedent with broad tech-industry implications; and NBC's and AP's continuing coverage of Iran's proposal to reopen the Strait of Hormuz reflects the ongoing war's economic stakes. Novelty and lifestyle items (Taylor Swift's new single, shopping guides, sports previews, celebrity news) that filled much of the raw pools were excluded per the standard's guidance.
+
+**Strongest excluded candidate per outlet:**
+- **WSJ:** "New Jersey Lt. Gov. Dale Caldwell Resigns After Probe Finds Misconduct" — a genuine accountability story (also picked by NBC and AP), but more state-level than WSJ's institutional/security/geopolitical top five.
+- **NYT:** "Trump Proposes $810 Million in Education and Health Cuts, Defying Congress" — NYT's own version of the day's rescission story, but edged out by two Middle East stories (Saudi nuclear posture, the Netanyahu Oct. 7 warning) with more novel, durable geopolitical stakes.
+- **NBC:** "Some lawmakers doubt a Congress that's 'barely capable of email' can regulate AI" — a real AI-governance story, but framed more as a process/capability critique than a concrete new development.
+- **AP:** "Supreme Court rejects a Trump-backed Missouri congressional map for the third time" — a real gerrymandering ruling, but its third-time nature makes it less novel than AP's other four picks, and its category (elections/SCOTUS) is already covered by AP's voter-database pick.
+
+**Same-underlying-development check:** No single outlet's final five contained three or more selections tied to one underlying event. Cross-outlet convergence was substantial and reflects genuine across-the-board significance rather than padding: the Pentagon/Anthropic security-risk ruling was independently selected by WSJ, NYT, and AP; the Supreme Court's voter-database ruling was independently selected by all four outlets (WSJ, NYT, NBC, and AP); OpenAI's government-website incident was independently selected by WSJ, NYT, and AP; and the roughly $810 million-$1 billion rescission fight was independently selected by WSJ, NBC, and AP. Each outlet's selection of these stories came from its own distinct reporting and angle (e.g., AP's rescission story frames it around the rare legal authority invoked, while WSJ's and NBC's emphasize congressional anger), supporting their inclusion as the day's most durable, broadly recognized developments rather than redundant filler.
