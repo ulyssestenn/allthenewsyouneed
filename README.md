@@ -1,6 +1,6 @@
 # All the News You Need
 
-[Go to Today's Headlines.](headlines-2026-10-22.md) 
+[Go to Today's Headlines.](headlines-2026-10-23.md) 
 
 [Website.](https://allthenewsyouneed.org/)
 
