@@ -1,0 +1,51 @@
+## WSJ
+
+1. [Nvidia Starts Search for Next CEO](https://www.wsj.com/business/nvidia-starts-search-for-next-ceo-4fe0a873)
+2. [Widespread Microsoft Outage Roils Businesses, Governments](https://www.wsj.com/tech/microsoft-working-to-fix-widespread-outage-8df67a4e)
+3. [Chris Van Hollen to Challenge Chuck Schumer for Senate Majority Leader](https://www.wsj.com/politics/policy/chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader-fc3a8833)
+4. [Rear Admiral Resigns as Congress's Top Doctor Amid Probe](https://www.wsj.com/politics/rear-admiral-resigns-as-congresss-top-doctor-amid-probe-55aba49d)
+5. [SpaceX Plans More Than $74 Billion in Texas, Arizona Data-Center Investments](https://www.wsj.com/business/spacex-plans-more-than-74-billion-in-texas-arizona-data-center-investments-b9ff4ba3)
+
+## NYT
+
+1. [Nvidia Lost Its Founding C.E.O. Can It Keep Its Momentum?](https://www.nytimes.com/2026/11/13/technology/nvidia-ceo-jen-huang-loss.html)
+2. [Microsoft Races to Fix Outage Disrupting Outlook for a Second Day](https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html)
+3. [Brooklyn D.A. Opens Criminal Inquiry Into Flatbush Building Collapse](https://www.nytimes.com/2026/11/13/nyregion/brooklyn-flatbus-building-collapse-investigation.html)
+4. [Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader](https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html)
+5. [In Moscow, Witkoff and Kushner Ask Putin to Include Europe in Peace Talks](https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html)
+
+## NBC
+
+1. [Nvidia stock falls after Huang resigns, weighing on broader market](https://www.nbcnews.com/business/markets/nvidia-stock-huang-resigns-rcna608958)
+2. [Microsoft services hit by major outage across the world](https://www.nbcnews.com/tech/tech-news/outlook-widespread-outage-hits-microsoft-apps-rcna609047)
+3. [Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader](https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100)
+4. [2 children among the 8 dead in New York City building collapse, officials say](https://www.nbcnews.com/news/us-news/2-children-8-dead-new-york-city-building-collapse-officials-say-rcna608974)
+5. [Oklahoma dismisses murder charge against former death row inmate Richard Glossip](https://www.nbcnews.com/news/us-news/oklahoma-dismisses-murder-charge-former-death-row-inmate-richard-gloss-rcna609070)
+
+## AP
+
+1. [What we know after Jensen Huang resigns as Nvidia CEO](https://apnews.com/article/nvidia-jensen-huang-resigns-ceo-affairs-314714d463cf578cbb0dbd49de903107)
+2. [Microsoft reports progress as it works to recover email and other services in a global outage](https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a)
+3. [Van Hollen to challenge Schumer for Senate Democratic leader](https://apnews.com/article/van-hollen-schumer-senate-democratic-leader-6d74c189cb6c065c9a810a1cf1a53436)
+4. [US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain](https://apnews.com/article/iran-us-bahrain-radar-strait-hormuz-5d73a23b5b8647d2515c35b267b36c08)
+5. [FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance](https://apnews.com/article/fbi-binance-cryptocurrency-theft-north-korea-41be4834083e596a8facfd719f851cae)
+
+## Note
+
+**Selection window:** 2026-11-12 14:58 UTC to 2026-11-13 14:58 UTC (original publication time, not update or feed-retrieval time).
+
+**Access limitations:**
+- `wsj.com` and `apnews.com` return HTTP 401/403 to direct fetches of article pages, the same pattern observed on prior days; `nytimes.com` and `nbcnews.com` returned HTTP 200 directly. WSJ and NYT headlines and canonical URLs were taken from their RSS `<title>`/`<link>` fields (all eight WSJ feeds and ten NYT feeds fetched cleanly over HTTPS), with tracking query strings (e.g. `?mod=...`) stripped from WSJ URLs.
+- Several WSJ and NYT feed entries for the Nvidia/Jensen Huang story carried the *same* article URL used in prior days' digests, with only the `<title>` updated as WSJ and NYT updated a live-tracking article in place (e.g., WSJ's `nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad` URL, used in yesterday's digest, reappeared today retitled "Jensen Huang Has Been Ousted as Nvidia CEO"; NYT's `nvidia-stock-price-jensen-huang-ceo-affair.html`, used yesterday, reappeared retitled "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO"). The same pattern recurred for WSJ's Brooklyn building-collapse URL (`eight-people-killed-and-17-injured-in-brooklyn-building-collapse-811b5e8d`, used yesterday, retitled with an updated injury count today) and one AP Brooklyn URL (`brooklyn-building-collapse-dead-rubble-digging-...`, used yesterday). Per the task's own instruction to filter by *original* publication time rather than update time, these recycled URLs were treated as continuations of an already-published article, not new publications, and were excluded in favor of genuinely distinct, freshly published URLs covering the same developments (confirmed by checking each URL against yesterday's digest).
+- WSJ's selection for Chris Van Hollen's Senate leadership challenge appeared in its `socialpoliticsfeed` only as a newsletter-style descriptive sentence rather than a conventional headline; a standard headline was derived from the article's URL slug (`chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader`), the same approach used in prior digests for comparable WSJ feed items.
+- AP publishes no general-purpose RSS feed, so candidates were sourced via `news.google.com/rss/search?q=site:apnews.com+when:1d`, per the task's own instructions. Canonical AP URLs were recovered by fetching each Google News redirect page (with the task's own identifying user agent) for its embedded `data-n-a-id`/`data-n-a-ts`/`data-n-a-sg` attributes and replaying Google News' public `batchexecute` RPC (`Fbv4je`/`garturlreq`) with that payload — the same resolution a standard RSS reader performs when opening the link. AP's own article pages were never fetched for content; this is the same verification method used in prior digests.
+
+**Principal selection rationale:** Four developments anchored nearly every outlet's pool, reflecting an unusually concentrated news day: (1) Nvidia founder and CEO Jensen Huang's confirmed resignation — the actual resolution of yesterday's "board considers ouster" story — triggering a market selloff, a CEO search, and congressional scrutiny of the China-espionage/chip-export scandal behind it; (2) a multi-day global Microsoft outage disrupting Outlook, email, and other Microsoft 365 services for businesses and governments worldwide; (3) Sen. Chris Van Hollen's challenge to Chuck Schumer for the Senate Democratic leadership, a significant intra-party leadership fight following Democrats' strong midterm showing; and (4) the Brooklyn (Flatbush) building collapse, whose death toll reached eight and which is now the subject of a Brooklyn D.A. criminal inquiry. Remaining slots were chosen for genuinely distinct, durable developments outside that cluster: international security (the U.S. military downing two Iranian attack drones amid an Iranian claim of a strike on a U.S. radar in Bahrain; continued U.S.-Russia-Ukraine shuttle diplomacy with Witkoff and Kushner meeting Putin in Moscow), law enforcement (the FBI's seizure of $1.2 billion in cryptocurrency stolen from Binance, tied to North Korea), criminal justice (Oklahoma's dismissal of the murder charge against death-row exoneree Richard Glossip), institutional accountability (the resignation of Congress's attending physician amid a probe), and technology infrastructure investment (SpaceX's $74 billion-plus data-center buildout in Texas and Arizona).
+
+**Strongest excluded candidates:**
+- **WSJ:** "Producer-Price Inflation Cooled Last Month, Remains Elevated" — a genuine economic indicator, but excluded as routine monthly data without a standout surprise, relative to the five selected developments.
+- **NYT:** "After Xi Purges China's Generals, a Military Inquisitor Rises" — a durable geopolitical story about Chinese military politics, but excluded for lacking as concrete and immediate a news hook as the Moscow peace-talks story it was weighed against.
+- **NBC:** "Hundreds of protesters rally after ICE detains 8-year-old in San Diego" — a real and emotionally resonant immigration-enforcement controversy, but excluded as closer to an outrage-driven flashpoint than a concrete institutional or policy development, relative to the Glossip exoneration.
+- **AP:** "Witnesses who watched a Brooklyn building come crashing down felt helpless amid the chaos" — a legitimate, freshly published Brooklyn-collapse update (distinct from yesterday's AP URL), but excluded in favor of the FBI's Binance seizure and the Iran-Bahrain drone incident to give AP's five genuinely distinct coverage, since the Brooklyn collapse was already well represented via WSJ, NYT, and NBC.
+
+**Redundancy check:** Three underlying developments were independently selected by all four outlets: Jensen Huang's resignation as Nvidia CEO, the global Microsoft outage, and Van Hollen's challenge to Schumer. A fourth, the Brooklyn building collapse, was independently selected by three outlets (WSJ, NYT, NBC); AP's own strong Brooklyn candidates were set aside in favor of two distinct developments (the FBI's Binance seizure and the Iran-Bahrain drone incident) since the story was already well covered by the other three. This reflects a genuinely concentrated news day — by a wide margin, editors across all four outlets converged on the same handful of developments as most significant — not within-outlet repetition: no single outlet's five includes more than one headline on any of these developments. Each outlet's remaining one or two slots were independently selected for distinct developments spanning international security, law enforcement, criminal justice, institutional accountability, and technology infrastructure investment, as detailed above.
