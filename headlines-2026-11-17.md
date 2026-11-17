@@ -1,0 +1,47 @@
+## WSJ
+
+1. [Commerce Department Rule Aims to Further Limit Chip Shipments to China](https://www.wsj.com/world/asia/commerce-department-rule-aims-to-further-limit-chip-shipments-to-china-c6244c33?mod=rss_worldnews)
+2. [Alice Huang’s Husband Built a Data-Center Empire Backed by the Chinese State](https://www.wsj.com/world/china/alice-huangs-husband-built-a-data-center-empire-backed-by-the-chinese-state-78389c9a?mod=rss_worldnews)
+3. [Ukrainian Strike Severs Part of Russia’s Crimean Bridge](https://www.wsj.com/world/ukrainian-strike-severs-part-of-russias-crimean-bridge-a688b0f1?mod=rss_worldnews)
+4. [European Leaders Near Deal to Pick Spanish Economist as Next ECB President](https://www.wsj.com/world/europe/european-leaders-near-deal-to-pick-spanish-economist-as-next-ecb-president-62cc0c92?mod=rss_worldnews)
+5. [California AG Accuses OpenAI of Misleading and Endangering the Public](https://www.wsj.com/tech/ai/california-ag-accuses-openai-of-misleading-and-endangering-the-public-8e5c60d0?mod=rss_Technology)
+
+## NYT
+
+1. [California Sues OpenAI Over A.I. Safety Issues](https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html)
+2. [Supreme Court Rejects Trump Bid to Revive University Research Cuts](https://www.nytimes.com/2026/11/16/us/politics/supreme-court-trump-university-of-california.html)
+3. [Trump Administration Sought LinkedIn Data in Effort to Identify New York Times Sources](https://www.nytimes.com/2026/11/16/us/politics/trump-linkedin-data-nyt-sources.html)
+4. [Carney and Xi Announce Canada-China Trade Pact](https://www.nytimes.com/2026/11/17/world/canada/carney-china-xi-trade-apec.html)
+5. [Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea](https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html)
+
+## NBC
+
+1. [California Sues ChatGPT Maker OpenAI Over Rogue Hacking Incidents](https://www.nbcnews.com/tech/tech-news/california-sues-chatgpt-maker-openai-rogue-hacking-incidents-rcna609596)
+2. [U.S. Closes Loophole That Let Chinese Companies Use Top AI Chips in Foreign Data Centers](https://www.nbcnews.com/tech/tech-news/us-closes-loophole-let-chinese-companies-use-top-ai-chips-rcna609634)
+3. [U.S. Loses Measles-Elimination Status, Erasing Decades of Progress](https://www.nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920)
+4. [Supreme Court Rejects Trump Over Academic Funding Cuts Related to DEI](https://www.nbcnews.com/politics/supreme-court/supreme-court-rejects-trump-academic-funding-cuts-dei-rcna608885)
+5. [Vladimir Putin's Prized Bridge Is Partially Destroyed in Ukrainian Strike](https://www.nbcnews.com/world/russia/kerch-bridge-strikes-putin-crimea-ukraine-russia-war-kyiv-rcna609756)
+
+## AP
+
+1. [Supreme Court Rebuffs Trump Administration Appeal Over DEI Funding Cuts](https://news.google.com/rss/articles/CBMinwFBVV95cUxNdWJBZk0xU3paZmpwZno3aGY1ZWdBVE9wTkE1UDNsTkNoZzA0NlZMNUhHMFZnVmNpZUZDWEV4Z2NPWHZWV3Q0Z21iQ21zckdzUXo2M1RTbHZUYUE5ckxjcGs1STRpZmFDS3g2OXJKb25heU5CaFNFZm0xVFR1RXdVaXB5OGdHMklQNjhsSUFnUjl1b0ZBOG9hNGVVNy1Mc00?oc=5)
+2. [California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack](https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzhWWVB0Z1hBYmU2RUtsRW5BRjJteUR3VmV3d3hTLTlUbWVKZG5aNkZNSzhRX09iMFhVbmVRc1VqODY5MXhWb0V6M0pvT0RhTWNBS01sRzAxRGJBLW9RNWlNYk5VTDEzQ0Z0b0loR1doaFk0UENNMXViSi1selNmSlVfZUR5XzZaSGsxalNheDc0Szlfam9taFIwZw?oc=5)
+3. [Trump Administration Moves to Block China From Indirect Access to American AI Technology](https://news.google.com/rss/articles/CBMirAFBVV95cUxONGJmTGhQa3FRRDZtX3BqVk9SNlc1aHZ1QXZiUXdHMmlmZmdyUjFKS0hrREM1OFRrVDVjUGpSWnZfVTEtdlozVHVDc0h5Rld1cGVKQTFGYzVZOGJMdDNheWdEcFRhakxCVW1xcnQ3VHBzS2lRdWNPTGdtUkNxNVRnT1JUVzVKNzRXUlNuLUtBOVk2REZnZjMySER5NmhfNTliRjZsZ3B5TElrN0JU?oc=5)
+4. [A 2-Month Lull Ends With Iran's Third Strike on US Targets in Bahrain](https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2lESUxmdF9UMGE1eWlZcmZkUFJtNWxyNm5kZWM0cTExSGtIZXRxNTZNTjR3OXlqeFlQMjlWYWdjenZnazlJRUo1NlRndVRZWWY0VFVBcUJybG1NRTRhVkdtZFd4SUZiVlFPRWNLcmFVQjlYM3lZUUFlbUhuT0JJckg5cjNYZ2xEMlNjNVhuMVliMkRnWlFXVw?oc=5)
+5. [Defying Court Order, Energy Department Again Forces Michigan Coal Plant to Stay Open Past Retirement](https://news.google.com/rss/articles/CBMioAFBVV95cUxPdldSQ3dreWhDY3ZRMWVkbmdWQ1pjOWE1Tzk2VTdnMFhPS3h6c09fU3VoaS1Gc3ZNWXVoczcwUUwyTmNWNnZvS2Y0MzQyQVZBWFFKSVYtVTFxNk52SDVHRUpLVHpwT0NZR1pZX2ZheTZSN0lobXlFZTJZT3dpV3RiYVZ0Ri1kVV9NNFJzUXF2Zmo1UEZfaHBtZWNNUEJRMzZT?oc=5)
+
+## Note
+
+**Selection window:** Stories originally published between 2026-11-16 14:39 UTC and 2026-11-17 14:39 UTC, verified against each feed's `pubDate` (not update time or retrieval time).
+
+**Access and feed limitations:** All eight WSJ (Dow Jones) feeds, all ten NYT feeds, and all eight NBC feeds were reachable and returned current content (NBC's feeds are gzip-compressed and required requesting decompression; once handled, all eight returned full item sets). Direct requests to WSJ article pages returned HTTP 401 to this session's scripted request (WSJ gates article pages even though its RSS feeds are open); each WSJ URL above nonetheless comes verbatim from WSJ's own RSS feed and is the canonical article link. AP has no general-purpose public RSS feed, so candidates were sourced via Google News' `site:apnews.com when:1d` search feed, as instructed, after excluding non-article AP index/topic pages (e.g., NFL/NBA scoreboard pages, state election-results trackers) that the Google News feed mixes in alongside genuine articles. Direct requests to apnews.com returned a Cloudflare bot-verification challenge (HTTP 403), this session's web-search tool refuses to query the apnews.com domain directly, and Google News' redirect pages are JavaScript-rendered (no canonical apnews.com URL is present in the static response this session can fetch), so canonical apnews.com URLs could not be resolved or independently verified. As in recent digests, the five AP links above point to the Google News article pages for these stories (each confirmed HTTP 200/302 and matched against the AP headline, snippet, and timestamp) rather than resolved apnews.com URLs; each leads to the correct canonical AP article when opened in a standard browser.
+
+**Selection rationale:** Three threads ran through the day's strongest candidates — a fresh round of U.S.-China AI/chip export controls (a Commerce Department rule and a separate loophole closure, both distinct regulatory actions), California's lawsuit against OpenAI over safety and hacking failures (covered independently by all four outlets, a sign of its weight), and continuing fallout from the Nvidia/Jensen Huang affair, which most outlets' own candidate pools treated as largely settled corporate-governance news rather than fresh developments and which was therefore kept to at most one or two angles per outlet. Judicial and legal developments (Supreme Court rulings on DEI funding and a gun-law challenge, a federal court order defied on a coal plant) and war developments (the Kerch/Crimean bridge strike, a new Iran strike in Bahrain) were weighed as highly durable and included over previews of the Trump-Xi-Putin Asia summit, which generated a large volume of "what to know," "live updates," and curtain-raiser coverage across NYT and AP that was deprioritized under the instruction to prefer concluded developments over previews of scheduled events. Virality-driven stories — the new James Bond casting, Grammy nomination reactions, Black Friday deal roundups, celebrity-adjacent court news — were excluded throughout despite high volume in the raw feeds.
+
+**Strongest excluded candidate per outlet:**
+- **WSJ:** "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting" — a genuine, durable infrastructure story, but it extends coverage of a disruption already reported in depth on prior days rather than introducing a materially new consequence.
+- **NYT:** "Leaked Records Show Deutsche Bank Courting Russian Oligarchs" — a substantial financial-scandal scoop, but judged narrower in immediate, concluded consequence than the five selections (a safety lawsuit, a Supreme Court ruling, a press-freedom story, a trade pact, and a war development).
+- **NBC:** "Supreme Court Rejects Challenge to Maryland's 'Sensitive Places' Gun Ban" — a real judicial development, but a second Supreme Court item would have crowded out the measles-elimination-status story, which reflects a rarer, more durable public-health milestone.
+- **AP:** "EU Accuses Russia of Stalling Ukraine Peace Talks to Target Power Plants as Winter Nears" — a genuine war-and-diplomacy development, but judged somewhat less immediately consequential than the new Iran strike on U.S. targets in Bahrain, which already captures the war-escalation angle for this outlet.
+
+**Redundancy check:** No outlet's final five contains three or more headlines about the same underlying development. WSJ's two China-chip-policy items (the Commerce Department rule and the Alice Huang data-center reporting) are distinct angles — a trade-policy action versus an investigative national-security finding — and don't extend to a third. NBC and AP each include two AI-policy items (the OpenAI lawsuit and a separate chip-export action), which are different regulatory actions on different fronts of the same broader AI-governance story, not duplicates of one another, and neither outlet reaches three.
