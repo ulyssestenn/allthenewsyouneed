@@ -1,0 +1,47 @@
+## WSJ
+
+1. [The Danger of Jensen Huang's Handshake Deals at Nvidia](https://www.wsj.com/business/nvidia-jensen-huang-deals-8750daf4)
+2. [Tentative Deal Averts Strike Threat at Busiest U.S. Ports](https://www.wsj.com/logistics-report/tentative-deal-averts-strike-threat-at-busiest-u-s-ports-6f9a60d1)
+3. [Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math](https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b)
+4. [New Satellite Photos Show Expansion of North Korean Uranium-Enrichment Plant](https://www.wsj.com/world/asia/new-satellite-photos-show-expansion-of-north-korean-uranium-enrichment-plant-f23c5512)
+5. [EU Open to 'Closest Possible Relationship' With U.K., Chief Says](https://www.wsj.com/world/europe/eu-open-to-closest-possible-relationship-with-u-k-chief-says-f2206559)
+
+## NYT
+
+1. [Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts](https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html)
+2. [Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices](https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html)
+3. [Stocks Skid Into a Correction, as A.I. Worries Intensify](https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html)
+4. [Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude](https://www.nytimes.com/2026/11/20/science/anthropic-ai-math-riemann-hypothesis.html)
+5. [Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer](https://www.nytimes.com/2026/11/20/business/judge-approves-7-billion-settlement-over-claims-that-roundup-caused-cancer.html)
+
+## NBC
+
+1. [FBI investigating potential breach of its crime database](https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536)
+2. [Man found guilty of starting deadly Palisades Fire in Los Angeles](https://www.nbcnews.com/news/us-news/pacific-palisades-fire-retrial-jonathan-rinderknecht-rcna610336)
+3. [Denmark accuses Russia of plotting to kill Ukrainian American rapper on its soil](https://www.nbcnews.com/world/europe/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-soil-rcna610542)
+4. [Trump formally ends minting of the penny after nearly 250 years of production](https://www.nbcnews.com/politics/white-house/trump-formally-ends-minting-penny-nearly-250-years-production-rcna600580)
+5. [New cervical cancer guidance to favor HPV screening over traditional Pap tests](https://www.nbcnews.com/health/womens-health/cervical-cancer-screening-federal-guidance-hpv-tests-pap-smear-rcna610282)
+
+## AP
+
+1. [Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores](https://apnews.com/article/russia-ukraine-war-missile-zelenskyy-trump-bfdee2ffadc2693e7338d6822e5356ef)
+2. [S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens](https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad)
+3. [Mexico detains top cartel boss 'El Chapo Isidro,' one of FBI's 10 most wanted fugitives](https://apnews.com/article/mexico-cartels-el-chapo-isidro-sinaloa-violence-7301b67a1b1b974bc6bd20c9d030ce07)
+4. [UK and EU strike deals on trade and travel, pledging to rebuild ties after Brexit](https://apnews.com/article/eu-britain-uk-brexit-summit-brussels-burnham-f265e5e01b5076b9489f7a6c89f831f4)
+5. [Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI](https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8)
+
+## Note
+
+**Selection window:** Stories originally published between 2026-11-20 14:39 UTC and 2026-11-21 14:39 UTC. Original publication time was verified against each feed's `pubDate`, and for NYT additionally cross-checked against the date embedded in each article's URL path (e.g. `/2026/11/19/...`), since several NYT feed items carried a recent `pubDate` despite URLs showing an earlier original publish date (apparent feed re-surfacing of older stories). Candidates whose URL date fell before the window — including "Trump Flaunts Camaraderie With Xi and Putin," the APEC oil-supply joint-statement story, "Anthropic's I.P.O. Turns Tech Researchers Into Overnight Millionaires," and "What Nvidia's Interim CEO ... Said After Jensen Huang's Resignation" (URL-dated Nov. 18) — were excluded on that basis despite appearing with in-window feed timestamps.
+
+**Access and feed limitations:** All eight WSJ (Dow Jones) feeds, all ten NYT feeds, and all eight NBC feeds were reachable and returned full, current item sets. WSJ's `socialpoliticsfeed` and `socialeconomyfeed` items use descriptive teaser sentences rather than true headlines, so candidates drawn from those two feeds specifically (e.g. on Fed governor Lisa Cook's inflation remarks, Sen. Cotton's comments on Commerce Secretary Lutnick, and a White House personnel-policy story) were set aside in favor of equally or more significant stories with verifiable, genuine headlines from WSJ's World, Business, Tech, U.S. News, Arts & Culture, and Health feeds. AP has no general-purpose public RSS feed, so candidates were sourced via Google News' `site:apnews.com when:1d` search feed, as instructed. Direct requests to apnews.com return a Cloudflare bot-verification challenge that does not clear from a plain HTTP request. Each of the five selected AP candidates' Google News redirect links were resolved to canonical `apnews.com/article/...` URLs with a headless browser (Playwright/Chromium): navigation to the Google News link consistently completed the client-side redirect to the canonical AP URL before the destination's Cloudflare challenge rendered (confirmed via `page.url()` after the redirect, even though the subsequent background network activity on the Cloudflare-challenge page caused the script's `networkidle` wait to time out).
+
+**Selection rationale:** Three developments were independently picked up by three outlets each, reflecting genuine cross-outlet convergence rather than within-outlet repetition: (1) an Anthropic mathematician's claimed solution to the Riemann Hypothesis with AI assistance — a major, if still unverified, science/AI story (WSJ, NYT, AP, each via a distinct headline); (2) the broader AI-driven stock-market selloff deepening into a correction (NYT, AP, and indirectly reflected in WSJ's Nvidia-governance pick); and (3) the escalating Nvidia corporate-governance and accounting scandal, covered through genuinely distinct angles — WSJ on Jensen Huang's unilateral "handshake deal" culture, NYT on the new SEC accounting probe. Beyond these, each outlet's remaining slots went to its strongest distinct stories: for WSJ, a tentative deal averting a strike at the nation's busiest ports, new satellite evidence of North Korean nuclear-fuel expansion, and the EU signaling openness to a closer post-Brexit relationship with the U.K.; for NYT, the capture of a top Mexican cartel boss on the FBI's ten-most-wanted list and a $7 billion Bayer/Roundup cancer-settlement approval; for NBC, an FBI investigation into a possible breach of its own crime database, a guilty verdict in the deadly 2025 Palisades Fire arson case, Denmark's expulsion of a Russian diplomat over an alleged assassination plot, the formal end of U.S. penny production after nearly 250 years, and new federal guidance favoring HPV screening over Pap tests for cervical-cancer detection; for AP, a ballistic-missile strike on Zelenskyy's hometown and the formal UK-EU post-Brexit trade and travel agreement. Stories whose significance depended on novelty, lifestyle content, sports, or routine political theater — Fiona the hippo retrospectives, "Grand Theft Auto VI" sales and reviews, Zohran Mamdani's soccer injury, NFL/NHL/tennis roundups, and gift-guide or holiday-recipe content — were deprioritized throughout.
+
+**Strongest excluded candidate per outlet:**
+- **WSJ:** "Databricks In Early Talks To Raise Funds At $225 Billion Valuation" — a genuine, large business story, but an early-stage funding talk rather than a completed, durable development, judged less consequential than the chosen five.
+- **NYT:** "U.N. Fails to Regulate Lethal Autonomous Weapons, but Plans to Try Again" — a real, durable international-governance story, but one reflecting continued inaction rather than a concrete new development, judged less immediately consequential than the five chosen.
+- **NBC:** "ICE spent $13 million a month for empty beds, watchdog reports" — a legitimate government-accountability story, but narrower in durable public impact than the new national cervical-cancer screening guidance.
+- **AP:** "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China" — a notable policy signal, but a reassurance of the status quo rather than a change, judged less durable than the ballistic-missile strike and market-correction stories.
+
+**Redundancy check:** No single outlet's final five contains three or more headlines about the same underlying development. Across outlets, the Anthropic Riemann Hypothesis claim was independently selected by three outlets (WSJ, NYT, AP) with three distinct headlines, and the Nvidia governance/accounting scandal was picked up by two outlets (WSJ, NYT) via genuinely distinct angles — both reflect real cross-outlet convergence on top-tier significance rather than duplication within any one outlet.
